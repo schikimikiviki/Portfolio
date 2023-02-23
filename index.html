@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Bzdyk</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+    </style>
+    <link rel="icon" type="image/x-icon" href="/laptop.ico.png" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+        <feColorMatrix
+          in="blur"
+          mode="matrix"
+          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -9"
+        />
+      </filter>
+    </svg>
+    <aside><img id="laptop-icon" src="/laptop.ico.png" /></aside>
+
+    <section id="wholepage">
+      <ol id="main-menu">
+        <li><a href="#sec1">about me</a></li>
+        <li><a href="#sec2">education and qualifications</a></li>
+        <li><a href="#sec3">experience</a></li>
+        <li><a href="#sec4">sumup</a></li>
+        <li><a href="#sec5">contact</a></li>
+      </ol>
+      <div id="section-1">
+        <div class="accent">hello, my name is</div>
+        <h1>Viktoria Bzdyk</h1>
+        <hr />
+        <div class="accent-2">
+          front end web developer // wordpress expert based in Vienna
+        </div>
+        <hr />
+        <div>
+          I am a developer specializing in the development and design of
+          outstanding digital experiences. I thrive on challenges and love
+          discovering new technologies and making them work for me.
+        </div>
+      </div>
+      <div id="section-2">
+        <a id="sec1"> <h2>about me</h2></a>
+        <hr />
+        <br />
+        <div id="sec2-main">
+          <div id="about-text">
+            I am 25 years old and started programming about five years ago. What
+            was just a hobby in the beginning is now my biggest passion. Back
+            then, I didn't quite trust myself to actually work in IT. Today, I
+            say "now more than ever!" and jump into the deep end. <br /><br />
+            Fun facts about me:
+            <ul>
+              <li>
+                When I code, I like to use the Rubber Duck technique. My Golden
+                Retriever stands in as the Rubber Duck.
+              </li>
+              <li>
+                I love spicy food so much that I often shed a tear or two while
+                eating it.
+              </li>
+              <li>
+                As a kid, I always wanted to be a "Tomb Raider" when I grew up.
+                Must have played too much on my PC!
+              </li>
+              <li>
+                I speak five languages: German (mother tongue), English
+                (business fluent), Polish (2nd language), French (B2/C1 level)
+                and Spanish (basic knowledge)
+              </li>
+            </ul>
+          </div>
+          <div id="portrait">
+            <img width="450" height="300px" src="/IMG_0765.jpg" />
+          </div>
+        </div>
+      </div>
+      <div id="section-3">
+        <a id="sec2"> <h2>education and qualifications</h2></a>
+        <hr />
+        <div id="list">
+          <div class="is-hidden">
+            Bachelor studies "Transcultural Communication" at the University of
+            Vienna in double degree program with the following working
+            languages: German, English, French, Polish. Finished with two BA
+            degrees (thesis: "The image of translators doing translation in a
+            power imbalanced field")
+          </div>
+          <div class="is-hidden">
+            Erasmus stay in France: Continuation of studies at ISIT (École de
+            management, communication, relations internationales)
+          </div>
+          <div class="is-hidden">
+            Master studies "Digital Business" at the FH Burgenland with MBA
+            degree (thesis: "Sustainable Web Design with WordPress - an attempt
+            to set up sustainability online")
+          </div>
+          <div class="is-hidden">
+            Numerous additional courses at the University of Vienna on
+            WordPress, Excel, InDesign, HTML & CSS, Python 3 and Photoshop
+          </div>
+        </div>
+      </div>
+      <div id="section-4">
+        <a id="sec3"> <h2>experience</h2></a>
+        <div>Only relevant experiences are listed</div>
+        <hr />
+        <br />
+        <div class="container">
+          <div class="box">
+            <div class="imgBx">
+              <img
+                src="https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
+            </div>
+            <div class="content">
+              <div>
+                <h2>IT-Systeme und Consulting GmbH</h2>
+                <p>
+                  Website creation and maintenance using WordPress, integration
+                  of custom code into WordPress, creation and maintenance of
+                  company social media accounts, internal communications, back
+                  office, marketing planning and execution, content creation,
+                  SEO.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <img
+                src="https://images.pexels.com/photos/825995/pexels-photo-825995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
+            </div>
+            <div class="content2">
+              <div>
+                <h2>Webtimism e.U.</h2>
+                <p>
+                  Website creation and maintenance with WordPress plus
+                  integration of custom code into WordPress, CSS and HTML.
+                  Focus: SEO, mobile websites, sustainable websites.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <img
+                src="https://images.pexels.com/photos/5473950/pexels-photo-5473950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
+            </div>
+            <div class="content3">
+              <div>
+                <h2>Codecool Full Stack Development course</h2>
+                <p>
+                  Coding projects as per curriculum. So far, these include CSS,
+                  Git/GitHub, HTML, JavaScript, React/Angular and in the future:
+                  Node.js, Express.js, MongoDB, Java, PostgreSQL, Docker, Spring
+                  Enterprise.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imgBx">
+              <img
+                src="https://images.pexels.com/photos/3361488/pexels-photo-3361488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
+            </div>
+            <div class="content4">
+              <div>
+                <h2>My own coding projects</h2>
+                <p>
+                  These include coding projects I created in my spare time, for
+                  example this website.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div id="section-5">
+        <a id="sec4"> <h2>sumup</h2></a>
+        <hr />
+        <div class="icon-body">
+          <div class="icon">
+            <svg
+              class="heart-main"
+              viewBox="0 0 512 512"
+              width="100"
+              title="heart"
+            >
+              <path
+                d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+              />
+            </svg>
+            <svg
+              class="heart-background"
+              viewBox="0 0 512 512"
+              width="100"
+              title="heart"
+            >
+              <path
+                d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div id="section-6">
+        <a id="sec5"> <h2>contact</h2></a>
+        <hr />
+      </div>
+    </section>
+  </body>
+</html>
